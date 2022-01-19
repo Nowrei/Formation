@@ -1,21 +1,8 @@
 body { background-image: url(https://images2.alphacoders.com/718/thumb-1920-71830.jpg);
-    background-position-y: 6000px;
+    background-position-y: 900px;
     
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -47,7 +34,8 @@ h3
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
-    color:#285CBD
+    color:#285CBD;
+    
 
 
 }
@@ -63,7 +51,15 @@ h3
 {
     display: flex;
     padding: 20px;
+    text-align: center;
+}
+
+.columns3
+{
+    display: flex;
+    padding: 20px;
     justify-content: center;
+    text-size-adjust: 10px;
 }
 
 
@@ -74,7 +70,7 @@ h3
 {
 justify-content: center;
 font-size: 15px;
-margin-top: 2px;
+margin-top: 5px;
 margin-left: 15px;
 
 }
@@ -84,6 +80,16 @@ margin-left: 15px;
 
 font-size: 15px;
 margin-bottom: 20px;
-margin-left: 120px;
-justify-content:center;
+margin-left: 90px;
+text-align: justify;
+
+
+}
+
+.colums3 p {
+
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    justify-content: center;
 }
