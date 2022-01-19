@@ -1,4 +1,8 @@
-body { background-image: url();}
+body { background-image: url(https://images2.alphacoders.com/718/thumb-1920-71830.jpg);
+    background-position-y: 6000px;
+    
+
+}
 
 
 
@@ -59,6 +63,7 @@ h3
 {
     display: flex;
     padding: 20px;
+    justify-content: center;
 }
 
 
@@ -80,5 +85,5 @@ margin-left: 15px;
 font-size: 15px;
 margin-bottom: 20px;
 margin-left: 120px;
-justify-content: center;
+justify-content:center;
 }
