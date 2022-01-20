@@ -7,6 +7,9 @@ h1 span{
     text-align: center;
     font-size: xx-large;
     background-image: url(https://thumbs.dreamstime.com/b/mer-bleue-de-turquoise-fond-l-eau-transparente-avec-la-texture-des-vagues-jour-ensoleill%C3%A9-silhouette-d-homme-se-recroquevillant-150155215.jpg);
+    color: azure;
+    opacity: 0.65;
+    border-radius:20vw;
 }
 
 
