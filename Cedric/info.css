@@ -1,0 +1,99 @@
+
+.agence{
+    text-align: center;
+}
+
+h1 span{
+    text-align: center;
+    font-size: xx-large;
+    background-image: url(https://thumbs.dreamstime.com/b/mer-bleue-de-turquoise-fond-l-eau-transparente-avec-la-texture-des-vagues-jour-ensoleill%C3%A9-silhouette-d-homme-se-recroquevillant-150155215.jpg);
+}
+
+
+
+
+.avis{
+
+    background-image: url();
+    text-align: center; 
+}
+
+.bubble-text{
+    
+    color:rgb(12, 12, 12); 
+    padding:7px 15px;
+    border-radius:2px; 
+    width:400px;
+    opacity:0.85;
+
+}
+
+.bubble-text::after{
+content:""; 
+border-left:20px solid transparent;
+border-right:20px solid transparent;
+
+position: absolute;
+}
+
+.bubble-text2{
+    
+    color: #fff;
+    padding: 7px 15px;
+    border-radius:2px;
+    width:400px;
+    opacity:0.85;
+}
+
+.bubble.text2::after{ 
+    content: "";
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #139ee0;
+    position: absolute; 
+}
+.bubble-text3{
+    
+    color: #eb760a;
+    padding: 7px 15px;
+    border-radius: 2px;
+    width: 400px;
+    opacity: 0.85;
+    text-decoration: black;
+}
+.bubble.text3::after{
+    content:"";
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid #139ee0;
+    position: absolute;
+}
+
+.d1{
+    width: 900px;
+    height: 900px;
+    margin: 50px auto;
+    box-shadow: 10px 15px 10px 5px rgb(92, 89, 89);
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url("https://www.artistikrezo.com/wp-content/uploads/2020/04/paris-vue-aerienne.jpg");}
+    33.33%{background-image: url("https://p9.storage.canalblog.com/98/75/1141728/115477377_o.jpg");}
+    66.67%{background-image: url("https://tickets.rugbyworldcup.com/sites/hubber_site_wrc8/files/2021-02/lyon_1096x576_d_0.png");}
+    100%{background-image: url("https://www.artistikrezo.com/wp-content/uploads/2020/04/paris-vue-aerienne.jpg");}
+}
+
+.titre{
+    text-align: center;
+}
+

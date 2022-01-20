@@ -1,95 +1,69 @@
-body { background-image: url(https://images2.alphacoders.com/718/thumb-1920-71830.jpg);
-    background-position-y: 750px;
-    
+body{font-family: sans-serif; background:#d1c2c2;}
+
+.Agences{ 
+    background-image: url(https://groupes.voyage/wp-content/uploads/2016/10/panorama-split.jpg);
+}
+.bubble-text{
+
+    background:#139ee0; 
+    color:#fff;
+     padding:7px 15px;
+     border-radius:2px; 
+     width:350px;
+    opacity:0.75
+}
+
+.bubble-text::after{
+content:""; 
+border-left:20px solid transparent;
+border-right:20px solid transparent;
+border-top: 20px solid #139ee0;
+position: absolute;
+}
+
+.bubble-text2{
+background-color: #139ee0;
+color: #fff;
+padding: 7px 15px;
+border-radius:2px;
+width:350px;
+opacity:0.75
+}
+
+.bubble-text2::after{
+
+    content:"";
+    border-left:20px solid transparent;
+    border-right:20 solid transparent;
+    border-top: 20px solid transparent;
+    position: relative;
 
 }
 
+.bubble-text3{
+    background-color: #139ee0;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius:2px;
+    width:350px;
+    opacity:0.75
+    }
 
+.bubble-text3::after{
 
-h1 { 
+        content:"";
+        border-left:20px solid transparent;
+        border-right:20 solid transparent;
+        border-top: 20px solid transparent;
+        position: relative;
+
+    }
+
+.hr{ 
+    color:black
+}
+
+.avis{
     text-align: center;
-    color: #2067c4;
-}
-
-h2
-{
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-
-   
-
-}
-
-
-   
-
-
-
-h3
-{
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    color:#285CBD;
-    
-
-
-}
-
-
-.columns1
-{
-    display: flex;
-    padding: 20px;
-}
-
-.columns2
-{
-    display: flex;
-    padding: 20px;
-    text-align: center;
-}
-
-.columns3
-{
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    text-size-adjust: 10px;
-}
-
-
-
-
-
-.columns1 p
-{
-justify-content: center;
-font-size: 15px;
-margin-top: 5px;
-margin-left: 15px;
-
-}
-
-.columns2 p
-{
-
-font-size: 15px;
-margin-bottom: 20px;
-margin-left: 90px;
-text-align: justify;
-
-
-}
-
-.colums3 p {
-
-    font-size: 15px;
-    margin-bottom: 20px;
-    margin-left: 90px;
-    justify-content: center;
-}
+    color:rgb(255, 255, 255);
+    background-color: url(https://p4.wallpaperbetter.com/wallpaper/854/358/472/kimi-no-na-wa-clear-sky-cloud-sky-wallpaper-preview.jpg);}
